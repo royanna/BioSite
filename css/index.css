@@ -1,0 +1,176 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+	margin:0; padding:0; 
+} 
+a{
+	color: #777777;
+}
+body{
+	font-size: 62.5%;
+}
+/*背景*/
+.back{
+	width: 100%;
+	height: 500px;
+	background: url(../img/top.png);
+}
+.back .title{
+	color: #8b8b8b;
+	font-family: sans-serif;
+	font-size: 40px;
+	margin-left: 42%;
+	text-shadow: 4px 4px 12px #FF0000;
+	padding-top: 210px;
+}
+.back .title span{
+	font-size: 25px;
+}
+.attach{
+	color: #8b8b8b;
+	font-family: sans-serif;
+	font-size: 32px;
+	margin-left: 50%;
+	font-style: italic;
+}
+
+/*主版块*/
+.container{
+	width: 100%;
+	background: #000000;	
+}
+/*导航栏*/
+.navigation{
+	width: 1146px;
+	height: 55px;
+	background: url(../img/input.png) center no-repeat;
+}
+/*分模块一*/
+.module-one{
+	width: 1146px;
+}
+.module-one article{
+	width: 90%;
+	margin: 7px auto;
+	overflow: hidden;
+	color: #787878;
+}
+.module-label{
+	width: 568px;
+	height: 46px;
+	background: url(../img/module-label.png) center no-repeat;
+}
+.module-label p{
+	padding-left: 30px;
+	line-height: 42px;
+	color: white;
+}
+.line{
+	width: 100%;
+	height: 19px;
+	background: url(../img/line.png) center no-repeat;
+}
+/*轮播图*/
+.stage {
+    perspective: 1000px;
+}
+.pack {
+    position: relative;
+    transform-style: preserve-3d;
+    animation: spin 12s infinite;
+    height: 360px;
+}
+.pack div {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 150px;
+    width: 200px;
+    margin: auto;  
+    line-height: 150px;
+    text-align: center;
+    color: white;
+    border: 1px solid #1B6D85;
+}
+.pack div:nth-child(1) {
+    transform: rotateY(0) translateZ(200px);
+}
+.pack div:nth-child(2) {
+    transform: rotateY(60deg) translateZ(200px);
+}
+.pack div:nth-child(3) {
+    transform: rotateY(120deg) translateZ(200px);
+}
+.pack div:nth-child(4) {
+    transform: rotateY(180deg) translateZ(200px);
+}
+.pack div:nth-child(5) {
+    transform: rotateY(240deg) translateZ(200px);
+}
+.pack div:nth-child(6) {
+    transform: rotateY(300deg) translateZ(200px);
+}
+@keyframes spin {
+    0% {
+        transform: rotateY(0);
+    }
+    
+    16.66% {
+        transform: rotateY(60deg);
+    }
+    
+    33.33% {
+        transform: rotateY(120deg);
+    }
+    
+    50% {
+        transform: rotateY(180deg);
+    }
+    
+    66.66% {
+        transform: rotateY(240deg);
+    }
+    
+    83.33% {
+        transform: rotateY(300deg);
+    }
+    
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+/*分模块二*/
+.label-field{
+	width: 90%;
+	height: 270px;
+	background: -webkit-linear-gradient(#202020, #0f0f0f, #080808); 
+    background: -o-linear-gradient(#202020, #0f0f0f, #080808);
+    background: -moz-linear-gradient(#202020, #0f0f0f, #080808);
+    background: linear-gradient(#202020, #0f0f0f, #080808); 
+	border-radius: 15px;
+	margin: 10px auto;
+	color: #777777;
+	padding: 15px 15px;
+}
+.glyphicon{
+	color: #039832;
+}
+.demo-field{
+	background: url(../img/telhead.png) left no-repeat;
+	width: 90%;
+	height: 270px;
+	margin: 10px auto;
+}
+.demo-field .row div{
+	height: 120px;
+	border-radius: 15px;
+	background: -webkit-linear-gradient(#202020, #0f0f0f, #080808); 
+    background: -o-linear-gradient(#202020, #0f0f0f, #080808);
+    background: -moz-linear-gradient(#202020, #0f0f0f, #080808);
+    background: linear-gradient(#202020, #0f0f0f, #080808); 
+}
+.all-line{
+	width: 100%;
+	height: 27px;
+	background: url(../img/long-line.png) center no-repeat;
+}

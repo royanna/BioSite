@@ -1,0 +1,112 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+	margin:0; padding:0; 
+} 
+a{
+	text-decoration: none;
+}
+h1,h2,p,a,span,div{
+	color: white;
+}
+body{
+	background: #141414;
+}
+ul{
+	list-style: none;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 10px;
+}
+.sign{
+	position: relative;
+}
+nav img{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+}
+nav span{
+	position: absolute;
+	color: white;
+	margin-left: 30px;
+	top: -2px;
+}
+nav ul li{
+	color: white;
+	display: inline;
+	margin-left: 30px;
+}
+.nav-btn{
+	height: 25px;
+	width: 80px;
+	border: none;
+	background: #ed6941;
+	border-radius: 25%;
+	color: white;
+}
+
+.first-edit{
+	width: 100%;
+	height: 600px;	
+	margin-left: auto;
+	text-align: center;
+	background-image: url(../img/back.png);
+	background-size: 100% 100%;
+}
+h2{
+	padding-top: 150px;
+	margin-left: auto;
+	opacity: 0.5;
+	text-align: center;
+}
+h1{
+	text-align: center;
+	font-size: 40px;
+}
+.music-img{
+	margin-top: 50px;
+	width: 60px;
+	height: 60px;
+}
+.alltxt{
+	margin-top: 150px;
+	margin-left: auto;
+	font-size: 24px;
+	text-align: center;
+}
+.data-one{
+	text-align: center;
+	margin-top: 50px;
+}
+.contain{
+	width: 200px;
+	height: 200px;
+}
+.contain-all{
+	display: flex;
+	justify-content: space-around;
+}
+.data-two{
+	width: 70%;
+	height: 250px;
+	margin: 30px auto;
+	display: flex;
+	justify-content: space-around;
+}
+.two-left,#two-right,#three-right,#four-right{
+	width: 30%;
+	height: 100%;
+}
+.title1{
+	margin-top: 60px;
+}
+.describe{
+	padding-top: 15px;
+	font-size: 5px;
+	vertical-align: middle;
+}
+.describe img{
+	width: 15px;
+	height: 15px;
+}
